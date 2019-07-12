@@ -1,0 +1,286 @@
+.page {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  .rwm {
+    position: fixed;
+    padding-top: 20px;
+    right: 70px;
+    top: 45%;
+    width: 158px;
+    height: 178px;
+    z-index: 1000;
+    border: 1px solid #fbd301;
+    border-radius: 8px 0px 0px 8px;
+    background-color: #fff;
+
+    .picture {
+      margin: 0 auto;
+      width: 116px;
+      height: 116px;
+      background-color: #4c4c4c;
+    }
+
+    span {
+      display: block;
+      margin-top: 22px;
+      text-align: center;
+      font-size: 14px;
+      font-family: MicrosoftYaHeiLight;
+      font-weight: 300;
+      color: #8a77f6;
+    }
+  }
+
+  .fixBox {
+    position: fixed;
+    right: 0;
+    top: 45%;
+    width: 70px;
+    height: 200px;
+    z-index: 1000;
+    background-color: #fbd301;
+
+    span {
+      display: block;
+      // margin: 0 auto;
+      text-align: center;
+      margin-top: 40px;
+    }
+  }
+
+  .main {
+    // height: 827px;
+    box-sizing: border-box;
+    background-color: #fff;
+    min-height: 827px;
+    padding: 80px 0;
+
+    .content {
+      box-sizing: border-box;
+      width: 1200px;
+      margin: 0 auto;
+
+      // introduce
+      .introduce {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 85px;
+
+        .introduce_middle {
+          .middle_title {
+            font-size: 20px;
+            font-family: MicrosoftYaHei-Bold;
+            font-weight: bold;
+            color: #808080;
+          }
+
+          .middle_content {
+            margin: 21px 0;
+
+            .top {
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              width: 520px;
+              height: 40px;
+              background-color: #fbd301;
+
+              span {
+                display: inline-block;
+                margin: 10px 20px;
+                font-size: 14px;
+                font-family: MicrosoftYaHeiLight;
+                font-weight: bold;
+                color: #580643;
+              }
+
+              span:first-child {
+                font-size: 16px;
+                font-family: MicrosoftYaHei-Bold;
+                font-weight: bold;
+                color: #580643;
+              }
+            }
+
+            .bottom {
+              height: 166px;
+              display: flex;
+              justify-content: flex-start;
+
+              div {
+                width: 176px;
+                background-color: #fbfbfb;
+
+                span {
+                  display: block;
+                  margin: 15px 15px 15px 20px;
+
+                  font-size: 14px;
+                  font-family: MicrosoftYaHeiLight;
+                  font-weight: 300;
+                  color: #4c4c4c;
+                }
+              }
+
+              .centerBox {
+                width: 166px;
+                border-left: 1px solid #beb1b4;
+                border-right: 1px solid #beb1b4;
+              }
+            }
+          }
+
+          p {
+            font-size: 14px;
+            font-family: MicrosoftYaHeiLight;
+            font-weight: 300;
+            color: #808080;
+          }
+        }
+
+        .introduce_right {
+          width: 327px;
+          height: 334px;
+          padding: 16px 29px;
+          border: 1px solid #950b23;
+          box-sizing: border-box;
+
+          .title {
+            text-align: center;
+            font-size: 16px;
+            font-family: MicrosoftYaHei;
+            font-weight: 400;
+            color: #950b23;
+          }
+
+          .from_a {
+            ul {
+              li {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                margin: 10px 0;
+
+                img {
+                  margin-right: 10px;
+                  width: 24px;
+                  height: 22px;
+                }
+              }
+            }
+          }
+
+          .btn {
+            width: 220px;
+            height: 40px;
+            margin: 0 auto;
+            cursor: pointer;
+            text-align: center;
+            line-height: 40px;
+            color: #ffffff;
+            font-size: 16px;
+            font-family: MicrosoftYaHeiLight;
+            font-weight: bold;
+            background-color: #8a77f6;
+          }
+        }
+      }
+
+      // 录取通知
+      .notice {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-bottom: 1px solid #8a77f6;
+
+        span {
+          display: inline-block;
+          margin-left: 30px;
+          margin-bottom: 19px;
+          font-size: 28px;
+          font-family: PangMenZhengDao;
+          font-weight: 400;
+          color: #8a77f6;
+        }
+
+        span:last-child {
+          margin-left: 101px;
+          font-size: 16px;
+          font-family: MicrosoftYaHeiLight;
+          font-weight: 300;
+          color: #4c4c4c;
+        }
+      }
+
+      // 入学
+      .universe {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 78px;
+
+        .study {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          background-color: #fbfbfb;
+          margin: 30px 40px;
+
+          img {
+            width: 156px;
+            height: 130px;
+          }
+
+          .study_content {
+            width: 292px;
+          }
+        }
+      }
+
+      // 案例分析
+      .consider {
+        display: flex;
+        justify-content: space-between;
+
+        .consider_title {
+          display: inline-block;
+          margin-left: 36px;
+          font-size: 28px;
+          font-family: PangMenZhengDao;
+          font-weight: 400;
+          color: #8a77f6;
+        }
+
+        div {
+          span {
+            display: inline-block;
+            height: 40px;
+            margin-left: 40px;
+            padding: 0 34px;
+            border: 1px solid #8a77f6;
+            line-height: 40px;
+            font-size: 16px;
+            font-family: MicrosoftYaHeiLight;
+            font-weight: bold;
+            color: #8a77f6;
+          }
+        }
+      }
+
+      //article
+      .left_article {
+        overflow: hidden;
+
+        pre,
+        p {
+          font-size: 14px;
+          font-family: MicrosoftYaHeiLight;
+          font-weight: 300;
+          color: #4d4d4d;
+        }
+      }
+    }
+  }
+}

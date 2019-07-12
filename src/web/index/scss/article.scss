@@ -1,0 +1,58 @@
+.page {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  .main {
+    box-sizing: border-box;
+    background-color: #fff;
+    min-height: 827px;
+    padding: 80px 0;
+
+    .content {
+      display: flex;
+      justify-content: space-between;
+      box-sizing: border-box;
+      width: 1200px;
+      margin: 0 auto;
+
+      .left_article {
+        width: 774px;
+
+        h1 {
+          margin: 20px 0;
+          font-size: 20px;
+          font-family: MicrosoftYaHei-Bold;
+          font-weight: bold;
+          color: #5c0c48;
+        }
+
+        pre,
+        p {
+          font-size: 14px;
+          font-family: MicrosoftYaHeiLight;
+          font-weight: 300;
+          color: #4d4d4d;
+        }
+      }
+
+      .article_mulu {
+        box-sizing: border-box;
+        height: 650px;
+        width: 327px;
+        padding: 25px 26px;
+        border: 1px solid #cccccc;
+        overflow: hidden;
+
+        .mulu {
+          padding: 14px 0;
+          border-bottom: 1px solid #ebebeb;
+          font-size: 14px;
+          font-family: MicrosoftYaHeiLight;
+          font-weight: 300;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

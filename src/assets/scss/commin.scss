@@ -1,0 +1,56 @@
+// 公共样式
+// 线条
+.line {
+  height: 250px;
+  width: 90px;
+  margin-top: 50px;
+  border-left: 1px solid #ebebeb;
+}
+
+// 字体
+// 头部地区
+.font_area {
+  font-size: 14px;
+  font-family: MicrosoftYaHeiLight;
+  font-weight: 300;
+  color: #4c4c4c;
+}
+
+.brt {
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  color: #fff;
+}
+
+.brc {
+  font-size: 14px;
+  font-family: MicrosoftYaHeiLight;
+  font-weight: 300;
+  color: #fff;
+
+  li {
+    margin: 20px 0;
+    overflow: hidden;
+    text-overflow: ellipsis; //溢出用省略号显示
+    white-space: nowrap; //溢出不换行
+    cursor: pointer;
+
+    span {
+      display: inline-block;
+      margin-left: 15px;
+      font-size: 14px;
+      font-family: MicrosoftYaHeiLight;
+      font-weight: bold;
+      color: #FBD301;
+    }
+  }
+}
+
+// 电话号码
+.telephone {
+  font-size: 26px;
+  font-family: MicrosoftYaHei-Bold;
+  font-weight: bold;
+  color: #808080;
+}
