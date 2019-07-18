@@ -11,7 +11,7 @@ http://106.14.135.233:8080/overseas/dist/#/index
 
 ### Vue方面
 - 首页用了一点elementui的插件，问题有点多。以后时间不急尽量少用插件问题太多。坑爹的ie不支持Vue.use()方法。只能用Vue.component()方法。但是这样又出了一个问题，就是在项目中统一使用Vue.component() 刷新页面的时候。会弹出Message弹窗，所以只能放弃ie那一部分。
-(```)
+```javascript
     // 判断是否为ie 看情况使用哪种形式
     if (!!window.ActiveXObject || "ActiveXObject" in window){
     // 使用use方式会导致刷新页面的时候，弹出mesage
@@ -20,15 +20,15 @@ http://106.14.135.233:8080/overseas/dist/#/index
     }else{
          Vue.component(Message.name, Message)
     }
-(```)
+```
 
 - 我在index页面下将下拉条，拉至中部或者其他部位。然后跳转页面，新的页面中滚动条还是原来的位置。下面方式可以解决
-(```)
+```javascript
     //解决跳转页面滚动条位置不变的问题
     router.afterEach((to, from, next) => {
         window.scrollTo(0, 0);
     });
-(```)
+```
 
 
 ### CSS方面
